@@ -2,8 +2,16 @@
 *{
     padding: 0; 
     margin: 0;
+    box-sizing: border-box;
 }
 
+
+.josefin-sans{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
 /*Selector de tipo: Etiqueta*/
 body{
     background-color: rgb(48, 48, 75);
@@ -17,13 +25,19 @@ main{
 
 h1{
     color:white;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /*Selector de tipo: Clase*/
 /*Reutilizar estilos*/
 
 .tarjeta {
-    width: 320px;
+    width: 280px;
+    height: 335px;
     background-color: antiquewhite;
     border-radius: 3%;
     /*Centrando elementos*/
@@ -32,8 +46,14 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 8px; /*Separador*/
+    margin: 8px 8px 10px 8px;
+    padding: 12px;
+    border: 2px solid black;
     transition: all 0.3s ease-in-out;
+}
+
+.titulo-tarjeta{
+    margin-bottom: 0px;
 }
 
 .tarjeta:hover{ 
@@ -46,7 +66,9 @@ h1{
 }
 
 .tarjeta img{
-    width: 100%;
+    background-color: aliceblue;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 5%;
 }
