@@ -52,10 +52,6 @@ h1{
     transition: all 0.3s ease-in-out;
 }
 
-.titulo-tarjeta{
-    margin-bottom: 0px;
-}
-
 .tarjeta:hover{ 
     background-color: rgb(129, 93, 99);
     transform: scale(1.05);
